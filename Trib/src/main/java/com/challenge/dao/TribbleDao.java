@@ -36,9 +36,10 @@ public class TribbleDao {
         try {
             String sql = "insert into tribbles values(" +
                     id + ", " +
-                    labId + ", " +
-                    name + ", " +
-                    color + ");";
+                    labId + ", '" +
+                    name + "', '" +
+                    color + "');";
+            System.out.println(sql);
 
             Statement st = ConnectionUtil.getInstance().getConnection().createStatement();
             rs = st.executeQuery(sql);

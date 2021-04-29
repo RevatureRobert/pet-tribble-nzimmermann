@@ -11,6 +11,8 @@ public class Driver {
 
         tbdao.getTribbleColor(1);
 
+        tbdao.addTribble(2,1,"greg","white");
+
     }
 
 
