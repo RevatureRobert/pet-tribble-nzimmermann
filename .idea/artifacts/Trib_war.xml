@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Trib:war">
+    <output-path>$PROJECT_DIR$/Trib/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Trib</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Trib-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Trib:war exploded" />
+    </root>
+  </artifact>
+</component>

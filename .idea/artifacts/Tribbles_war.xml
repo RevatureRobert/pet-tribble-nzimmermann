@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Tribbles:war">
+    <output-path>$PROJECT_DIR$/Tribbles/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Tribbles</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Tribbles-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Tribbles:war exploded" />
+    </root>
+  </artifact>
+</component>
